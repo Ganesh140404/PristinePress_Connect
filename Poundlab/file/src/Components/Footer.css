@@ -1,0 +1,61 @@
+
+/* Footer styles */
+footer {
+  background-color: #ffeba2; /* Set footer background color to a dark shade of gray */
+  color: #000000; /* Set text color to white */
+  padding: 20px 0;
+  margin-top: 5px;
+  
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-content {
+  width: 30%;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.footer-content h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.footer-content p {
+  margin: 5px 0;
+  color: rgb(0, 0, 0);
+}
+
+.footer-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-content ul li {
+  margin-bottom: 5px;
+}
+
+.footer-content ul li a {
+  color: #000000; /* Set link color to white */
+  text-decoration: none;
+}
+
+.footer-content ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  background-color: #961616; /* Set footer bottom background color to a slightly darker shade of gray */
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #ffffff;
+}

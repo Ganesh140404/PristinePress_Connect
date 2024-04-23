@@ -1,0 +1,182 @@
+/* Home.css */
+
+/* Base styles */
+
+.HomePage {
+  background-color: rgb(213, 255, 255);
+}
+.but {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+
+.image-container {
+  text-align: center;
+}
+
+.image-container img {
+  max-width: 35%;
+  height: auto;
+}
+
+.wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.hero {
+  padding-top: 30px;
+  background-color: #aedcf3;
+}
+
+.hero .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.hero-desc {
+  width: 100%;
+  text-align: center;
+}
+
+.hero-desc > * {
+  color: #02082c;
+}
+
+.hero-desc h1 {
+  background-color: transparent;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(6, 39, 85);
+}
+
+.how-it-works {
+  background-color: #aedcf3;
+  padding-bottom: 50px;
+}
+
+.how-it-works h1 {
+  background-color: rgb(250, 187, 103);
+  color: #000000;
+  border-radius: 30px 50px;
+  text-align: center;
+}
+
+.how-it-works .wrapper {
+  background-color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 30px 0;
+}
+
+.card {
+  background-color: #02723ce5;
+  color: white;
+  padding: 40px 20px;
+  margin: 0 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: calc(33.33% - 40px);
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.card h1 {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+}
+
+.card i {
+  font-size: 45px;
+  text-align: center;
+}
+
+.card > * {
+  margin: 5px 0;
+}
+
+.offers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.offers h2 {
+  margin-bottom: 20px;
+  color: #ff0000;
+  
+}
+
+.offers ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.offers li {
+  margin-bottom: 10px;
+  color: #292929;
+}
+
+/* CSS for the button */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #008a9f; /* Blue color for the button */
+  color: #fff; /* White color for the text */
+  text-decoration: none; /* Remove underline */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.button:hover {
+  background-color: #186875; /* Darker shade of blue on hover */
+}
+
+/* Media queries for responsiveness */
+
+@media screen and (max-width: 768px) {
+  .hero-desc {
+    width: 100%;
+  }
+
+  .card {
+    width: calc(50% - 40px);
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    width: calc(100% - 40px);
+  }
+}
+

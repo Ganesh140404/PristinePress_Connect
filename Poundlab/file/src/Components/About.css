@@ -1,0 +1,53 @@
+.ctn {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .ctn img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    width: 500px; /* Adjust the width as needed */
+    
+  
+  }
+  
+  
+  .ctn h1 {
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  .ctn p {
+    text-align: justify;
+  }
+  
+  .ctn ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .ctn ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Left side attractive styles */
+  .ctn h2 {
+    color: #000000; /* Blue color, you can change it */
+  }
+  
+  .ctn h2::after {
+    content: "";
+    display: block;
+    width: 50px;    
+    height: 2px;
+    background-color: #007bff; /* Blue color, you can change it */
+    margin-top: 8px;
+  }
+  
+  .ctn h2 + p {
+    font-style: italic;
+    color: #777;
+  }
